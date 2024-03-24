@@ -6,6 +6,7 @@ import inquirer from "inquirer";
 // if user guess is correct, print "You won"
 // else print "You lost"
 const randomNumber = Math.floor(Math.random() * 10) + 1;
+console.log("Welcome to the guessing game");
 const answers: {
     userGuess: number;
 } = await inquirer.prompt([
